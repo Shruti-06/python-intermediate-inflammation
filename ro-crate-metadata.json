@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "author": [
+        {
+          "@id": "#james_graham-1"
+        },
+        {
+          "@id": "#__Sam_Mangham-1"
+        }
+      ],
+      "name": []
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "#james_graham-1",
+      "@type": "Person",
+      "name": "james_graham-1"
+    },
+    {
+      "@id": "#__Sam_Mangham-1",
+      "@type": "Person",
+      "name": "__Sam_Mangham-1"
+    }
+  ]
+}
